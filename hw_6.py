@@ -4,8 +4,8 @@ print('Existing value: ', my_dict.get('Evgeniy'))
 print('Not existing value:', my_dict.get('Oleg'))
 my_dict['Kristina'] = 1985
 my_dict['Veronika'] = 2004
-Max = my_dict.pop('Maksim')
-print('Deleted value: ', Max)
+maks = my_dict.pop('Maksim')
+print('Deleted value: ', maks)
 print('Updated Dict: ', my_dict)
 
 old_set = {24, 'Виноград', 'Машина', 13.55, 24, 'Виноград', 13.55, 'Машина'}
